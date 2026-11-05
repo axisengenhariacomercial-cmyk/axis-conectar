@@ -1,0 +1,11 @@
+AXIS — página de conexões
+Destino planejado: https://axisengenhariacomercial.com.br/conectar/
+
+1. Criar um repositório público no GitHub.
+2. Enviar os arquivos mantendo a estrutura de pastas.
+3. Em Settings > Pages, publicar pela branch main e pasta /(root).
+4. Configurar o domínio personalizado axisengenhariacomercial.com.br no GitHub Pages.
+5. No Registro.br, configurar os DNS indicados pelo GitHub Pages.
+6. Depois da publicação e ativação do HTTPS, testar todos os links.
+
+A página está preparada, mas só ficará acessível após publicação e configuração do DNS.
