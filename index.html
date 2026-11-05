@@ -17,18 +17,17 @@
     }
     main { width:100%; max-width:460px; text-align:center; }
     .brand-panel {
-      background:var(--cream);
-      border-radius:14px;
-      padding:10px 14px;
+      background:transparent;
+      padding:0;
       margin:0 auto 22px;
       width:100%;
-      max-width:420px;
-      overflow:hidden;
+      display:flex;
+      justify-content:center;
     }
     .logo {
       display:block;
-      width:100%;
-      max-width:100%;
+      width:190px;
+      max-width:62vw;
       height:auto;
       margin:0 auto;
       object-fit:contain;
@@ -48,14 +47,14 @@
     footer { margin-top:28px; color:var(--gold); font-size:10px; letter-spacing:2px; }
     @media (max-width:480px) {
       body { padding:28px 16px; }
-      .brand-panel { max-width:100%; padding:9px 10px; }
+      .logo { width:180px; }
     }
   </style>
 </head>
 <body>
   <main>
     <div class="brand-panel">
-      <img class="logo" src="assets/logo-axis.png" alt="AXIS — Engenharia Comercial & Performance">
+      <img class="logo" src="./assets/logo-axis.png" alt="AXIS — Engenharia Comercial & Performance">
     </div>
     <p class="intro">Estratégia, estrutura e performance para operações comerciais.</p>
     <nav class="links" aria-label="Canais de contato">
